@@ -6,10 +6,7 @@ using namespace std;
 
 
 void initArray(int*& arr, int size) {
-    arr = new int[size];
-    for (int i = 0; i < size; ++i) {
-        arr[i] = rand() % 10;
-    }
+
 }
 
 
